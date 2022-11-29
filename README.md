@@ -32,22 +32,22 @@ Pointers for installing DeepPurpose:
 ## Results from running the algorithms on the datasets
 ***
 
-For Absorption(1218 drugs) rf was the best performing:
+For Absorption (1218 drugs) rf was the best performing:
 * MPNN had an AUROC: 0.66
 * Tranformer had an AUROC: 0.79
 * rf had an AUROC: 0.82
 
-For Distribution(2030 drugs) rf was the best performing:
+For Distribution (2030 drugs) rf was the best performing:
 * MPNN had an AUROC: 0.70
 * Tranformer had an AUROC: 0.80
 * rf had an AUROC: 0.84
 
-For Metabolism(12579 drugs) MPNN was the best performing:
+For Metabolism (12579 drugs) MPNN was the best performing:
 * MPNN had an AUROC: 0.84
 * Tranformer had an AUROC: 0.68
 * rf had an AUROC: 0.66
 
-For Excretion(1213 drugs) Transformer had the best performance: 
+For Excretion (1213 drugs) Transformer had the best performance: 
 * MPNN had an MSE: 2317.86
 * Tranformer had an MSE: 2289.21
 * rf had an MSE: 2822.81
