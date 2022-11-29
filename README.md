@@ -1,6 +1,6 @@
 # Benchmarking ML models for ADME properties of drugs/druglike compounds
 
-Here we have a notebook containing a function that streamlines benchmarking for random forest(rf),graph neural network (GNN) known as message passing neural network (MPNN) and a transformer.
+Here we have a notebook containing a function that streamlines benchmarking for random forest(rf), graph neural network (GNN) known as message passing neural network (MPNN) and a transformer.
 The Deeplearning library [DeepPurpose](https://deeppurpose.readthedocs.io/en/latest/) is leveraged here for the transformer encoder and MPNN.
 
 By going through the notebook "benchmark_graph_random_forest_and_transformer.ipynb" you can apply the three algorithms to the four available datasets the first three datasets pertaining to absoroption,distribution and metabolism will produce plots and scores such such as AUROC as they are a binary classification task whereas the last dataset on excretion is a regression task so its metric of evaluation is focused on the mean squared error,
