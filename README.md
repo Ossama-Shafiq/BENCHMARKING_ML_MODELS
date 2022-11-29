@@ -16,6 +16,7 @@ Datasets are acquired from [Therapeutics Data Commons(TDC)](https://tdcommons.ai
 ## Computing Molecular Descriptors
 ***
 For using padelpy the following points are to be noted:
+* Install padelpy following this [link](https://pypi.org/project/padelpy/)
 * Java runtime enviroment must be installed [JRE](https://www.java.com/en/download/manual.jsp) 
 * a Zip file has been uploaded to this git repo which contains the information for the 12 different molecular fingerprints
 * Refer to notebook "prepping_for_finger_print_rf.ipynb" for example of how finger prints were computed also the data was taken from DeepPurpose module and converted to csv then used in this notebook
